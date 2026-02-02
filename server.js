@@ -43,14 +43,29 @@ server.get('/proxy-image', async (req, res) => {
   }
 });
 
-server.use(middlewares);
+// API routes
 server.use('/api', router);
 
 // Serve React app for all non-API routes in production
 if (process.env.NODE_ENV === 'production') {
+  const fs = require('fs');
+  const indexPath = path.join(__dirname, 'frontend/dist/index.html');
+  
   server.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
+    // Skip API routes and proxy routes
+    if (req.path.startsWith('/api') || req.path.startsWith('/proxy-image')) {
+      return;
+    }
+    
+    // Check if index.html exists
+    if (fs.existsSync(indexPath)) {
+      res.sendFile(indexPath);
+    } else {
+      res.status(404).send('Frontend build not found. Please ensure the build process completed successfully.');
+    }
   });
+} else {
+  server.use(router);
 }
 
 const PORT = process.env.PORT || 5000;
