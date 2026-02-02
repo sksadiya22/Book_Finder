@@ -1,4 +1,5 @@
 const jsonServer = require('json-server');
+const path = require('path');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
@@ -10,6 +11,15 @@ server.use((req, res, next) => {
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
+
+// Serve static files from React build in production
+if (process.env.NODE_ENV === 'production') {
+  server.use(jsonServer.defaults({
+    static: path.join(__dirname, 'frontend/dist')
+  }));
+} else {
+  server.use(middlewares);
+}
 
 // Image proxy endpoint to bypass CORS
 server.get('/proxy-image', async (req, res) => {
@@ -34,9 +44,16 @@ server.get('/proxy-image', async (req, res) => {
 });
 
 server.use(middlewares);
-server.use(router);
+server.use('/api', router);
 
-const PORT = 5000;
+// Serve React app for all non-API routes in production
+if (process.env.NODE_ENV === 'production') {
+  server.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
+  });
+}
+
+const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`JSON Server with image proxy running on port ${PORT}`);
 });
