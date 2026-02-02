@@ -6,7 +6,9 @@
     "frontend": "cd frontend && npm run dev",
     "backend": "node server.js",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "build": "cd frontend && npm install && npm run build",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm ci && npm run build",
+    "postinstall": "cd frontend && npm install",
     "start": "node server.js"
   },
   "dependencies": {
