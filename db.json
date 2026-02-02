@@ -1,0 +1,672 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Demo User",
+      "email": "demo@bookfinder.com",
+      "password": "demo123",
+      "createdAt": "2025-11-30T10:00:00.000Z"
+    },
+    {
+      "name": "A",
+      "email": "a@gmail.com",
+      "password": "a@1234",
+      "createdAt": "2025-11-30T10:43:31.974Z",
+      "id": "n3NqLe4"
+    },
+    {
+      "name": "james",
+      "email": "j@gmail.com",
+      "password": "j@12345",
+      "createdAt": "2025-11-30T12:25:25.726Z",
+      "id": "GjWKckm"
+    },
+    {
+      "name": "m",
+      "email": "m@gmail.com",
+      "password": "m@12345",
+      "createdAt": "2025-11-30T18:03:32.843Z",
+      "id": "dG5nTfU"
+    },
+    {
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "password": "j@1234",
+      "createdAt": "2025-12-05T12:13:11.235Z",
+      "id": "WGMq_p4"
+    },
+    {
+      "name": "komali",
+      "email": "ko@gmail.com",
+      "password": "k@1234",
+      "createdAt": "2025-12-05T13:23:38.546Z",
+      "id": "vay-TZw"
+    },
+    {
+      "name": "Arun",
+      "email": "arun@gmail.com",
+      "password": "arun@1234",
+      "createdAt": "2025-12-05T14:50:12.275Z",
+      "id": "rqG5DBS"
+    },
+    {
+      "name": "kamali",
+      "email": "kamali@gmail.com",
+      "password": "k@1234",
+      "createdAt": "2025-12-05T14:55:14.034Z",
+      "id": "3IoGD5o"
+    },
+    {
+      "name": "demo",
+      "email": "d@gmail.com",
+      "password": "d@1234",
+      "createdAt": "2025-12-06T06:20:48.448Z",
+      "id": "0A4dZui"
+    },
+    {
+      "name": "doe",
+      "email": "doe@gmail.com",
+      "password": "do@1234",
+      "createdAt": "2025-12-06T07:01:14.728Z",
+      "id": "g3bsQyY"
+    },
+    {
+      "name": "Subash Chandra bose",
+      "email": "subash@gmail.com",
+      "password": "s@1234",
+      "createdAt": "2025-12-08T13:32:03.350Z",
+      "id": "I9LWnka"
+    },
+    {
+      "name": "sadiya",
+      "email": "sadiya@example.com",
+      "password": "123456",
+      "createdAt": "2026-02-02T12:53:09.801Z",
+      "id": "ryNAucW"
+    }
+  ],
+  "books": [
+    {
+      "googleId": "Cr0iAwAAQBAJ",
+      "title": "The Oxford Handbook of Clinical Psychology",
+      "authors": [
+        "David H. Barlow"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DCr0iAwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=Cr0iAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "The Oxford Handbook of Clinical Psychology synthesizes a half-century of clinical psychology literature in one extraordinary volume. Comprising chapters from the foremost scholars in the field, this handbook provides even and authoritative coverage of the research, practice, and policy factors that combine to form today's clinical psychology landscape. It is a landmark publication that is sure to serve as the field's benchmark reference publication for years to come.",
+      "publishedDate": "2014",
+      "pageCount": 977,
+      "userEmail": "k@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-11-30T06:04:16.174Z",
+      "id": "tkxLg-t"
+    },
+    {
+      "googleId": "Cr0iAwAAQBAJ",
+      "title": "The Oxford Handbook of Clinical Psychology",
+      "authors": [
+        "David H. Barlow"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DCr0iAwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=Cr0iAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "The Oxford Handbook of Clinical Psychology synthesizes a half-century of clinical psychology literature in one extraordinary volume. Comprising chapters from the foremost scholars in the field, this handbook provides even and authoritative coverage of the research, practice, and policy factors that combine to form today's clinical psychology landscape. It is a landmark publication that is sure to serve as the field's benchmark reference publication for years to come.",
+      "publishedDate": "2014",
+      "pageCount": 977,
+      "userEmail": "k@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-11-30T06:04:17.598Z",
+      "id": "_6fl2ee"
+    },
+    {
+      "googleId": "dRn0AAAAQBAJ",
+      "title": "Something from Mercury",
+      "authors": [
+        "John Russell Fearn"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DdRn0AAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=dRn0AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "It came originally from the merciless, frost-bound wilderness of the night side of Mercury, the hellish planet nearest to the Sun. But when space explorer Harry Dagenham brings a long-dead, petrified snake--or something--back to Earth from Mercury, he discovers--quite suddenly--that the rock-hard creature is not quite so inert as it first appears! Here are six extraordinary stories from the golden age of the pulps: \"Something from Mercury,\" \"The World That Dissolved,\" \"Pre-Natal,\" \"Beyond Zero,\" \"Across the Ages,\" and \"Twilight Planet.\" Great science-fiction adventure from the pulp magazine era!",
+      "publishedDate": "2013-07-02",
+      "pageCount": 157,
+      "userEmail": "a@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-11-30T10:43:44.595Z",
+      "id": "jSmiQtT"
+    },
+    {
+      "googleId": "r6UyEAAAQBAJ",
+      "title": "Harry Potter Box Set: the Complete Collection (Children's Paperback)",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dr6UyEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=r6UyEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "A beautiful boxed set containing all seven Harry Potter novels in paperback. These new editions of the classic and internationally bestselling, multi-award-winning series feature instantly pick-up-able new jackets by Jonny Duddle, with huge child appeal, to bring Harry Potter to the next generation of readers. It's time to PASS THE MAGIC ON .",
+      "publishedDate": "2014-09-24",
+      "pageCount": 345,
+      "userEmail": "j@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-11-30T12:25:32.152Z",
+      "id": "hY1gkvH"
+    },
+    {
+      "googleId": "z7D2DwAAQBAJ",
+      "title": "The Modern JavaScript Basics Tutorial",
+      "authors": [
+        "Be Sure Academy"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dz7D2DwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice. Everything is up to you. If you are struggling, take a break, or re-read the material. JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone. JavaScript is free to use for everyone. Start your coding today!",
+      "publishedDate": "2025-01-08",
+      "pageCount": 78,
+      "userEmail": "j@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-11-30T12:25:43.176Z",
+      "id": "bHOSE8u"
+    },
+    {
+      "googleId": "abYKXvCwEToC",
+      "title": "Harry Potter",
+      "authors": [
+        "S. Gunelius"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DabYKXvCwEToC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=abYKXvCwEToC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "The Harry Potter books are the bestselling books of all time. In this fascinating study, Susan Gunelius analyzes every aspect of the brand phenomenon that is Harry Potter. Delving into price wars, box office revenue, and brand values, amongst other things, this is the story of the most incredible brand success there has ever been.",
+      "publishedDate": "2008-06-03",
+      "pageCount": 214,
+      "userEmail": "jack@gmail.com",
+      "status": "finished",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-05T12:17:12.315Z",
+      "id": "u6D0q7Q"
+    },
+    {
+      "googleId": "18LKPQAACAAJ",
+      "title": "Harry Potter",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D18LKPQAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=18LKPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "A fabulous opportunity to own all seven Harry Potter titles - Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Princeand Harry Potter and the Deathly Hallows- in a fantastic boxed set",
+      "publishedDate": "2007-10",
+      "pageCount": 7,
+      "userEmail": "jack@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-05T13:21:55.659Z",
+      "id": "bgXx0Xt"
+    },
+    {
+      "googleId": "gal9MtXKC68C",
+      "title": "‏هيرى پوٹر اور رازوں کا کمره :‏",
+      "authors": [
+        "J. K. Rowling",
+        "Darakhshanda Asghar Khokhar"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dgal9MtXKC68C%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=gal9MtXKC68C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "An Urdu language edition of the second Harry Potter tale.",
+      "publishedDate": "2004",
+      "pageCount": 314,
+      "userEmail": "jack@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-05T13:22:00.787Z",
+      "id": "U5xYXzB"
+    },
+    {
+      "googleId": "F25yEAAAQBAJ",
+      "title": "Mai",
+      "authors": [
+        "Geetanjali Shree "
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DF25yEAAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=F25yEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "Behind the walls of a house in a North Indian town a whole world thrives—of the joint family, their attendants, their visitors. Three generations of women and their men live different strategies of adjustment and achievement to accommodate or challenge patriarchy. They seem to fit in recognised frames, but what are the subtle machinations behind the apparent stereotypes? It is that which the novel uncovers, in a tale told in deceptively simple terms, using smells, sounds, tastes and flavours, scenes and tiny signs, and incidents of a daily and ordinary existence to build, weave by weave, a rich and layered tapestry, saying always more than is apparent. At the centre is Mai, the mother, seemingly weak and silent, but it is she who holds together the subtle patterns of relationships and agencies, and quietly carves out a life for herself as also for those around. Her New Age children are obsessed with rescuing her from the ‘prison’ and escaping themselves; but as the story unfolds, any simplistic notion of bondage and freedom goes for a toss. Profound stories of love and loss are lightly delivered. Mai was her debut novel which was translated into English by Nita Kumar. This translation received the Sahitya Akademi award and also was shortlisted for the Crossword Book Award in 2001.",
+      "publishedDate": "2017",
+      "pageCount": 6,
+      "userEmail": "arun@gmail.com",
+      "status": "reading",
+      "favourite": true,
+      "notes": "i like this book ",
+      "addedAt": "2025-12-05T14:50:57.934Z",
+      "id": "y0n81gc"
+    },
+    {
+      "googleId": "z7D2DwAAQBAJ",
+      "title": "The Modern JavaScript Basics Tutorial",
+      "authors": [
+        "Be Sure Academy"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dz7D2DwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice. Everything is up to you. If you are struggling, take a break, or re-read the material. JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone. JavaScript is free to use for everyone. Start your coding today!",
+      "publishedDate": "2025-01-08",
+      "pageCount": 78,
+      "userEmail": "kamali@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-05T14:58:00.910Z",
+      "id": "YDKIw6X"
+    },
+    {
+      "googleId": "_uTRAwAAQBAJ",
+      "title": "JavaScript & jQuery",
+      "authors": [
+        "Jon Duckett"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D_uTRAwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=_uTRAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "Jon Duckett’s best-selling, full-color introduction to JavaScript—filled with techniques to make websites more interactive and engaging Learn JavaScript and jQuery from the author who has inspired hundreds of thousands of beginner-to-intermediate coders. Build upon your HTML and CSS foundation and take the next step in your programming journey with JavaScript. The world runs on JavaScript and the most influential tech companies are looking for new and experienced programmers alike to bring their websites to life. Finding the right resources online can be overwhelming. Take a confident step in the right direction by choosing the simplicity of JavaScript & jQuery: Interactive Front-End Web Development by veteran web developer and programmer Jon Duckett. Widely regarded for setting a new standard for those looking to learn and master web development, Jon Duckett has inspired web developers through his inventive teaching format pioneered in his bestselling HTML & CSS: Design and Build Websites. He also has helped global brands like Philips, Nike, and Xerox create innovative digital solutions, designing and delivering web and mobile projects with impact and the customer at the forefront. In JavaScript & jQuery, Duckett shares his real-world insights in his unique and highly visual style: Provides an efficient and user-friendly structure that allows readers to progress through the chapters in a self-paced format Combines full-color design graphics and engaging photography to explain the topics in an in-depth yet straightforward manner Recreates techniques seen on other websites such as sliders, content filters, form validation, Ajax content updates, and much more Is perfect for anyone looking to create web applications and games, design mobile apps, or redesign a website using popular web development tools JavaScript & jQuery is clear and actionable, providing organized instruction in ways that other online courses, tutorials, and books have yet to replicate. For readers seeking a personable yet professional guide to using JavaScript in the real world, this one-of-a-kind guide is for you. JavaScript & jQuery is also available as part of two hardcover and paperback sets depending on your web design and development needs: Web Design with HTML, CSS, JavaScript, and jQuery Set Paperback: 9781118907443 Hardcover: 9781119038634 Front-End Back-End Development with HTML, CSS, JavaScript, jQuery, PHP, and MySQL Set Paperback: 9781119813095 Hardcover: 9781119813088",
+      "publishedDate": "2014-07-21",
+      "pageCount": 640,
+      "userEmail": "kamali@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-05T14:58:02.178Z",
+      "id": "f3R5KEC"
+    },
+    {
+      "googleId": "rwiJDwAAQBAJ",
+      "title": "How JavaScript Works",
+      "authors": [
+        "Douglas Crockford"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DrwiJDwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=rwiJDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "Douglas Crockford starts by looking at the fundamentals: names, numbers, booleans, characters, and bottom values. JavaScript’s number type is shown to be faulty and limiting, but then Crockford shows how to repair those problems. He then moves on to data structures and functions, exploring the underlying mechanisms and then uses higher order functions to achieve class-free object oriented programming. The book also looks at eventual programming, testing, and purity, all the while looking at the requirements of The Next Language. Most of our languages are deeply rooted in the paradigm that produced FORTRAN. Crockford attacks those roots, liberating us to consider the next paradigm.He also presents a strawman language and develops a complete transpiler to implement it. The book is deep, dense, full of code, and has moments when it is intentionally funny.",
+      "publishedDate": "2018-10-18",
+      "pageCount": 279,
+      "userEmail": "kamali@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-05T14:58:03.541Z",
+      "id": "pWbpnf2"
+    },
+    {
+      "googleId": "abYKXvCwEToC",
+      "title": "Harry Potter",
+      "authors": [
+        "S. Gunelius"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DabYKXvCwEToC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=abYKXvCwEToC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "The Harry Potter books are the bestselling books of all time. In this fascinating study, Susan Gunelius analyzes every aspect of the brand phenomenon that is Harry Potter. Delving into price wars, box office revenue, and brand values, amongst other things, this is the story of the most incredible brand success there has ever been.",
+      "publishedDate": "2008-06-03",
+      "pageCount": 214,
+      "userEmail": "d@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T06:20:56.224Z",
+      "id": "bdR_Wde"
+    },
+    {
+      "googleId": "n3vng7gyGCYC",
+      "title": "Harry Potter",
+      "authors": [
+        "Unknown Author"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dn3vng7gyGCYC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=n3vng7gyGCYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "No description available.",
+      "publishedDate": "",
+      "pageCount": 1011,
+      "userEmail": "d@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-06T06:20:58.276Z",
+      "id": "H-PDijR"
+    },
+    {
+      "googleId": "18LKPQAACAAJ",
+      "title": "Harry Potter",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D18LKPQAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=18LKPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "A fabulous opportunity to own all seven Harry Potter titles - Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Princeand Harry Potter and the Deathly Hallows- in a fantastic boxed set",
+      "publishedDate": "2007-10",
+      "pageCount": 7,
+      "userEmail": "d@gmail.com",
+      "status": "reading",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T06:21:00.778Z",
+      "id": "5WyYTZr"
+    },
+    {
+      "googleId": "18LKPQAACAAJ",
+      "title": "Harry Potter",
+      "authors": [
+        "J. K. Rowling"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3D18LKPQAACAAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=18LKPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "A fabulous opportunity to own all seven Harry Potter titles - Harry Potter and the Philosopher's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Princeand Harry Potter and the Deathly Hallows- in a fantastic boxed set",
+      "publishedDate": "2007-10",
+      "pageCount": 7,
+      "userEmail": "d@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T06:21:01.909Z",
+      "id": "mJ40LAo"
+    },
+    {
+      "googleId": "gal9MtXKC68C",
+      "title": "‏هيرى پوٹر اور رازوں کا کمره :‏",
+      "authors": [
+        "J. K. Rowling",
+        "Darakhshanda Asghar Khokhar"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dgal9MtXKC68C%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=gal9MtXKC68C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "An Urdu language edition of the second Harry Potter tale.",
+      "publishedDate": "2004",
+      "pageCount": 314,
+      "userEmail": "d@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T06:21:03.789Z",
+      "id": "Z5vLkAc"
+    },
+    {
+      "googleId": "AegDAAAAMBAJ",
+      "title": "Competition Science Vision",
+      "authors": [
+        "Unknown Author"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DAegDAAAAMBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=AegDAAAAMBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "Competition Science Vision (monthly magazine) is published by Pratiyogita Darpan Group in India and is one of the best Science monthly magazines available for medical entrance examination students in India. Well-qualified professionals of Physics, Chemistry, Zoology and Botany make contributions to this magazine and craft it with focus on providing complete and to-the-point study material for aspiring candidates. The magazine covers General Knowledge, Science and Technology news, Interviews of toppers of examinations, study material of Physics, Chemistry, Zoology and Botany with model papers, reasoning test questions, facts, quiz contest, general awareness and mental ability test in every monthly issue.",
+      "publishedDate": "2007-10",
+      "pageCount": 136,
+      "userEmail": "doe@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-06T07:02:05.294Z",
+      "id": "iHexb7M"
+    },
+    {
+      "googleId": "z7D2DwAAQBAJ",
+      "title": "The Modern JavaScript Basics Tutorial",
+      "authors": [
+        "Be Sure Academy"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3Dz7D2DwAAQBAJ%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=z7D2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. Here we learn JavaScript, starting from scratch and go on to advanced concepts like OOP. You will learn by examples In this book, learning speed is your choice. Everything is up to you. If you are struggling, take a break, or re-read the material. JavaScript is already running in your browser on your computer, on your tablet, and on your smart-phone. JavaScript is free to use for everyone. Start your coding today!",
+      "publishedDate": "2025-01-08",
+      "pageCount": 78,
+      "userEmail": "doe@gmail.com",
+      "status": "finished",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T07:02:45.205Z",
+      "id": "mwWsyAV"
+    },
+    {
+      "googleId": "vJGlu9t9LNYC",
+      "title": "JavaScript",
+      "authors": [
+        "David Flanagan"
+      ],
+      "thumbnail": "http://localhost:5000/proxy-image?url=https%3A%2F%2Fbooks.google.com%2Fbooks%2Fcontent%3Fid%3DvJGlu9t9LNYC%26printsec%3Dfrontcover%26img%3D1%26zoom%3D1%26edge%3Dcurl%26source%3Dgbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=vJGlu9t9LNYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "A guide for experienced programmers demonstrates the core JavaScript language, offers examples of common tasks, and contains an extensive reference to JavaScript commands, objects, methods, and properties.",
+      "publishedDate": "2002",
+      "pageCount": 940,
+      "userEmail": "doe@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-06T07:02:48.512Z",
+      "id": "smBJFLc"
+    },
+    {
+      "googleId": "p5oKEQAAQBAJ",
+      "title": "Space, Place, and Bestsellers",
+      "authors": [
+        "Lisa Fletcher",
+        "Elizabeth Leane"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=2&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "From airport bookstores to deckchairs, as audiobooks downloaded by commuters, and on Kindles and other portable devices, twenty-first century bestsellers move in old and new ways. This Element examines the locations and mobilities of the contemporary bestseller as a multi-format commercial object. It employs paratextual, textual, and site-based analysis of the spatiality of bestsellers and considers the centrality of geography to the commercial promise of these books. Space, Place, and Bestsellers provides analysis of the spatial logic of bestseller lists, evidence-rich accounts of the physical and digital retail sites through which bestsellers flow, and new interpretations of how affixing the label 'bestseller' individual authors and titles generates industrial, social, and textual effects. Through its multi-layered analysis, this Element offers a new model for studying the spatiality of popular fiction.",
+      "rating": 0,
+      "pageCount": 179,
+      "publishedDate": "2024-06-30",
+      "userEmail": "m@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T12:56:03.276Z",
+      "id": "V-ELuoX"
+    },
+    {
+      "googleId": "KVGd-NabpW0C",
+      "title": "The Plague",
+      "authors": [
+        "Albert Camus"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=KVGd-NabpW0C&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=KVGd-NabpW0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "“Its relevance lashes you across the face.” —Stephen Metcalf, The Los Angeles Times • “A redemptive book, one that wills the reader to believe, even in a time of despair.” —Roger Lowenstein, The Washington Post A haunting tale of human resilience and hope in the face of unrelieved horror, Albert Camus' iconic novel about an epidemic ravaging the people of a North African coastal town is a classic of twentieth-century literature. The townspeople of Oran are in the grip of a deadly plague, which condemns its victims to a swift and horrifying death. Fear, isolation and claustrophobia follow as they are forced into quarantine. Each person responds in their own way to the lethal disease: some resign themselves to fate, some seek blame, and a few, like Dr. Rieux, resist the terror. An immediate triumph when it was published in 1947, The Plague is in part an allegory of France's suffering under the Nazi occupation, and a timeless story of bravery and determination against the precariousness of human existence.",
+      "rating": 4.5,
+      "pageCount": 322,
+      "publishedDate": "1991-05-07",
+      "userEmail": "m@gmail.com",
+      "status": "finished",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T12:59:15.079Z",
+      "id": "g063MK3"
+    },
+    {
+      "googleId": "3oSqDwAAQBAJ",
+      "title": "Oliver Twist",
+      "authors": [
+        "Charles Dickens"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=3oSqDwAAQBAJ&printsec=frontcover&img=1&zoom=3&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=3oSqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "JAICO ILLUSTARTED CLASSICS SERIES is a collection of beloved children’s classics read by generations all over the world. Rich with adventures and thrills, these immortal stories with vivid illustrations are designed to delight young readers. IN A RAMSHACKLE workhouse of a parish in England, a baby boy was born to a woman who died in childbirth. The boy was named OLIVER TWIST. He spent a sad childhood in abject misery in various workhouses. At the age of twelve, he runs away to London where he is picked up by a notorious criminal, Fagin, a mastermind at house breaking, pickpocketing and petty thievery. He teaches Oliver all these evil deeds. But a kind-hearted gentleman robbed by Fagin sympathizes with the plight of Oliver and helps him to find a family, his inheritance and above all Oliver’s true identity. CHARLES DICKENS was born in a little house in Landport, Portsea, England. The second of eight children, he grew up in a family frequently beset by financial insecurity. When the family fortunes improved, Dickens went back to school, after which he became an office boy, a freelance reporter, and finally an author.",
+      "rating": 0,
+      "pageCount": 220,
+      "publishedDate": "2019-01-01",
+      "userEmail": "m@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T12:59:19.212Z",
+      "id": "3txsBcE"
+    },
+    {
+      "googleId": "2gOsAgAAQBAJ",
+      "title": "Bestsellers (Routledge Revivals)",
+      "authors": [
+        "John Sutherland"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=2gOsAgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=2gOsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "First published in 1981, this book offers a study of British and American popular fiction in the 1970s, a decade in which the quest for the superseller came to dominate the lives of publishers on both sides of the Atlantic. Illustrated by examples of the lurid incidents that catapult so many books into the bestseller charts, this comprehensive study covers the work of Robbins, Hailey and Maclean, the 'bodice rippers', the disaster craze, horror, war stories and media tie-ins such as The Godfather, Jaws and Star Wars.",
+      "rating": 0,
+      "pageCount": 190,
+      "publishedDate": "2010-10-04",
+      "isbn": "9781136830631",
+      "userEmail": "subash@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T13:32:54.415Z",
+      "id": "kVuFSkI"
+    },
+    {
+      "googleId": "p5oKEQAAQBAJ",
+      "title": "Space, Place, and Bestsellers",
+      "authors": [
+        "Lisa Fletcher",
+        "Elizabeth Leane"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "From airport bookstores to deckchairs, as audiobooks downloaded by commuters, and on Kindles and other portable devices, twenty-first century bestsellers move in old and new ways. This Element examines the locations and mobilities of the contemporary bestseller as a multi-format commercial object. It employs paratextual, textual, and site-based analysis of the spatiality of bestsellers and considers the centrality of geography to the commercial promise of these books. Space, Place, and Bestsellers provides analysis of the spatial logic of bestseller lists, evidence-rich accounts of the physical and digital retail sites through which bestsellers flow, and new interpretations of how affixing the label 'bestseller' individual authors and titles generates industrial, social, and textual effects. Through its multi-layered analysis, this Element offers a new model for studying the spatiality of popular fiction.",
+      "rating": 0,
+      "pageCount": 179,
+      "publishedDate": "2024-06-30",
+      "isbn": "9781108856713",
+      "userEmail": "subash@gmail.com",
+      "status": "to-read",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-08T13:32:56.855Z",
+      "id": "T354sQj"
+    },
+    {
+      "googleId": "Su9r8_7gapUC",
+      "title": "The Bestseller",
+      "authors": [
+        "Olivia Goldsmith"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=Su9r8_7gapUC&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=Su9r8_7gapUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "At Davis & Dash, one of New York's most prestigious publishing houses, five new authors will be published--but only one of them will be a bestseller. They have worked long and hard to write their novels of romance and murder, drama and love. But the story behind the stories is even more exciting. And the vicious competition to get the right agent, the perfect editor, and the choice spot on the bestseller list must be seen to be believed.",
+      "rating": 0,
+      "pageCount": 724,
+      "publishedDate": "1997-06-14",
+      "isbn": "0061096083",
+      "userEmail": "subash@gmail.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T13:32:58.815Z",
+      "id": "fz-FJGZ"
+    },
+    {
+      "googleId": "KVGd-NabpW0C",
+      "title": "The Plague",
+      "authors": [
+        "Albert Camus"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=KVGd-NabpW0C&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=KVGd-NabpW0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "“Its relevance lashes you across the face.” —Stephen Metcalf, The Los Angeles Times • “A redemptive book, one that wills the reader to believe, even in a time of despair.” —Roger Lowenstein, The Washington Post A haunting tale of human resilience and hope in the face of unrelieved horror, Albert Camus' iconic novel about an epidemic ravaging the people of a North African coastal town is a classic of twentieth-century literature. The townspeople of Oran are in the grip of a deadly plague, which condemns its victims to a swift and horrifying death. Fear, isolation and claustrophobia follow as they are forced into quarantine. Each person responds in their own way to the lethal disease: some resign themselves to fate, some seek blame, and a few, like Dr. Rieux, resist the terror. An immediate triumph when it was published in 1947, The Plague is in part an allegory of France's suffering under the Nazi occupation, and a timeless story of bravery and determination against the precariousness of human existence.",
+      "rating": 4.5,
+      "pageCount": 322,
+      "publishedDate": "1991-05-07",
+      "isbn": "9780679720218",
+      "userEmail": "subash@gmail.com",
+      "status": "reading",
+      "favourite": true,
+      "notes": "",
+      "addedAt": "2025-12-08T13:33:03.482Z",
+      "id": "wOmwaHc"
+    },
+    {
+      "googleId": "3oSqDwAAQBAJ",
+      "title": "Oliver Twist",
+      "authors": [
+        "Charles Dickens"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=3oSqDwAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=3oSqDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "JAICO ILLUSTARTED CLASSICS SERIES is a collection of beloved children’s classics read by generations all over the world. Rich with adventures and thrills, these immortal stories with vivid illustrations are designed to delight young readers. IN A RAMSHACKLE workhouse of a parish in England, a baby boy was born to a woman who died in childbirth. The boy was named OLIVER TWIST. He spent a sad childhood in abject misery in various workhouses. At the age of twelve, he runs away to London where he is picked up by a notorious criminal, Fagin, a mastermind at house breaking, pickpocketing and petty thievery. He teaches Oliver all these evil deeds. But a kind-hearted gentleman robbed by Fagin sympathizes with the plight of Oliver and helps him to find a family, his inheritance and above all Oliver’s true identity. CHARLES DICKENS was born in a little house in Landport, Portsea, England. The second of eight children, he grew up in a family frequently beset by financial insecurity. When the family fortunes improved, Dickens went back to school, after which he became an office boy, a freelance reporter, and finally an author.",
+      "rating": 0,
+      "pageCount": 220,
+      "publishedDate": "2019-01-01",
+      "isbn": "9789388423038",
+      "userEmail": "subash@gmail.com",
+      "status": "finished",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2025-12-08T13:33:09.168Z",
+      "id": "IssaZaX"
+    },
+    {
+      "googleId": "2gOsAgAAQBAJ",
+      "title": "Bestsellers (Routledge Revivals)",
+      "authors": [
+        "John Sutherland"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=2gOsAgAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=2gOsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "First published in 1981, this book offers a study of British and American popular fiction in the 1970s, a decade in which the quest for the superseller came to dominate the lives of publishers on both sides of the Atlantic. Illustrated by examples of the lurid incidents that catapult so many books into the bestseller charts, this comprehensive study covers the work of Robbins, Hailey and Maclean, the 'bodice rippers', the disaster craze, horror, war stories and media tie-ins such as The Godfather, Jaws and Star Wars.",
+      "rating": 0,
+      "pageCount": 190,
+      "publishedDate": "2010-10-04",
+      "isbn": "9781136830631",
+      "userEmail": "sadiya@example.com",
+      "status": "to-read",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2026-02-02T12:53:54.827Z",
+      "id": "LPH8-uW"
+    },
+    {
+      "googleId": "Su9r8_7gapUC",
+      "title": "The Bestseller",
+      "authors": [
+        "Olivia Goldsmith"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=Su9r8_7gapUC&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=Su9r8_7gapUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "description": "At Davis & Dash, one of New York's most prestigious publishing houses, five new authors will be published--but only one of them will be a bestseller. They have worked long and hard to write their novels of romance and murder, drama and love. But the story behind the stories is even more exciting. And the vicious competition to get the right agent, the perfect editor, and the choice spot on the bestseller list must be seen to be believed.",
+      "rating": 0,
+      "pageCount": 724,
+      "publishedDate": "1997-06-14",
+      "isbn": "0061096083",
+      "userEmail": "sadiya@example.com",
+      "status": "reading",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2026-02-02T12:54:01.213Z",
+      "id": "YdG1BXW"
+    },
+    {
+      "googleId": "p5oKEQAAQBAJ",
+      "title": "Space, Place, and Bestsellers",
+      "authors": [
+        "Lisa Fletcher",
+        "Elizabeth Leane"
+      ],
+      "thumbnail": "https://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=0&source=gbs_api",
+      "originalThumbnail": "http://books.google.com/books/content?id=p5oKEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "description": "From airport bookstores to deckchairs, as audiobooks downloaded by commuters, and on Kindles and other portable devices, twenty-first century bestsellers move in old and new ways. This Element examines the locations and mobilities of the contemporary bestseller as a multi-format commercial object. It employs paratextual, textual, and site-based analysis of the spatiality of bestsellers and considers the centrality of geography to the commercial promise of these books. Space, Place, and Bestsellers provides analysis of the spatial logic of bestseller lists, evidence-rich accounts of the physical and digital retail sites through which bestsellers flow, and new interpretations of how affixing the label 'bestseller' individual authors and titles generates industrial, social, and textual effects. Through its multi-layered analysis, this Element offers a new model for studying the spatiality of popular fiction.",
+      "rating": 0,
+      "pageCount": 179,
+      "publishedDate": "2024-06-30",
+      "isbn": "9781108856713",
+      "userEmail": "sadiya@example.com",
+      "status": "finished",
+      "favourite": false,
+      "notes": "",
+      "addedAt": "2026-02-02T12:54:03.256Z",
+      "id": "OONViwQ"
+    }
+  ]
+}
